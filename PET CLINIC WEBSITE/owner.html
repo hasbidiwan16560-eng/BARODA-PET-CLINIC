@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+Owner Dashboard
+</title>
+
+<link
+rel="stylesheet"
+href="owner.css"
+>
+
+</head>
+
+<body>
+
+<!-- LOGIN -->
+
+<div
+class="login-box"
+id="loginBox"
+>
+
+<h1>
+Owner Login
+</h1>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password"
+>
+
+<button onclick="login()">
+Login
+</button>
+
+</div>
+
+<!-- DASHBOARD -->
+
+<div
+class="dashboard"
+id="dashboard"
+>
+
+<h1>
+Owner Dashboard
+</h1>
+
+<!-- GUIDE -->
+
+<div class="box">
+
+<h2>
+2 Minute Setup Guide
+</h2>
+
+<p>
+1 → Enter WhatsApp Number
+</p>
+
+<p>
+2 → Save Settings
+</p>
+
+<p>
+3 → Website Ready ✅
+</p>
+
+</div>
+
+<!-- WHATSAPP -->
+
+<div class="box">
+
+<h2>
+WhatsApp Setup
+</h2>
+
+<input
+type="text"
+id="whatsappInput"
+placeholder="919876543210"
+>
+
+<button onclick="saveWhatsapp()">
+Save WhatsApp
+</button>
+
+</div>
+
+<!-- HERO -->
+
+<div class="box">
+
+<h2>
+Hero Section
+</h2>
+
+<input
+type="text"
+id="heroTitleInput"
+placeholder="Hero Title"
+>
+
+<textarea
+id="heroDescInput"
+placeholder="Hero Description"
+></textarea>
+
+<button onclick="saveHero()">
+Save Hero
+</button>
+
+</div>
+
+<!-- CONTACT -->
+
+<div class="box">
+
+<h2>
+Contact Details
+</h2>
+
+<input
+type="text"
+id="contactInput"
+placeholder="+91 9876543210"
+>
+
+<button onclick="saveContact()">
+Save Contact
+</button>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="box">
+
+<h2>
+Footer Text
+</h2>
+
+<input
+type="text"
+id="footerInput"
+placeholder="Footer Text"
+>
+
+<button onclick="saveFooter()">
+Save Footer
+</button>
+
+</div>
+
+<!-- SERVICES -->
+
+<div class="box">
+
+<h2>
+Add Service
+</h2>
+
+<input
+type="text"
+id="serviceName"
+placeholder="Service Name"
+>
+
+<input
+type="text"
+id="servicePrice"
+placeholder="Service Price"
+>
+
+<input
+type="text"
+id="serviceImage"
+placeholder="images/service1.jpg"
+>
+
+<button onclick="addService()">
+Add Service
+</button>
+
+</div>
+
+<!-- GALLERY -->
+
+<div class="box">
+
+<h2>
+Add Gallery Image
+</h2>
+
+<input
+type="text"
+id="galleryImage"
+placeholder="images/gallery1.jpg"
+>
+
+<button onclick="addGallery()">
+Add Gallery
+</button>
+
+</div>
+
+<!-- TESTIMONIAL -->
+
+<div class="box">
+
+<h2>
+Add Testimonial
+</h2>
+
+<input
+type="text"
+id="testimonialName"
+placeholder="Customer Name"
+>
+
+<textarea
+id="testimonialText"
+placeholder="Review"
+></textarea>
+
+<button onclick="addTestimonial()">
+Add Testimonial
+</button>
+
+</div>
+
+<!-- SLOTS -->
+
+<div class="box">
+
+<h2>
+Add Slot
+</h2>
+
+<input
+type="text"
+id="slotInput"
+placeholder="5:00 PM"
+>
+
+<button onclick="addSlot()">
+Add Slot
+</button>
+
+</div>
+
+<!-- PASSWORD -->
+
+<div class="box">
+
+<h2>
+Change Password
+</h2>
+
+<input
+type="password"
+id="newPassword"
+placeholder="New Password"
+>
+
+<button onclick="changePassword()">
+Change Password
+</button>
+
+</div>
+
+</div>
+
+<script src="owner.js"></script>
+
+</body>
+</html>
